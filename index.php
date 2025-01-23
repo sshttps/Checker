@@ -1,12 +1,12 @@
 <?php
 #BOT CREADO POR  Andresitoww
-$botToken = '5359484704:AAH-jUHJcjoCp05qrV5RuwEL1Is35V3KU9g'; #AGREGAMOS EL TOKEN DEL BOT Aqui Ponemos El 
+$botToken = '8060796208:AAFcv6TQnKTXc0mug9ZVtMOZsjKfDV4wiac'; #AGREGAMOS EL TOKEN DEL BOT Aqui Ponemos El 
 $website  = "https://api.telegram.org/bot".$botToken;
 $update   = file_get_contents('php://input');
 $update   = json_decode($update, true);
 $e        = print_r($update); //
 #EMPIEZA LA CAPTURA DE VARIABLES ENVIADOS AL CHAT
-$My_ID           = "1887258668";
+$My_ID           = "-1002309126000";
 $chatname        = $update["message"]["chat"]["title"]; 
 $newusername     = $update["message"]["new_chat_member"]["username"];
 $newgId          = $update["message"]["new_chat_member"]["id"];
@@ -32,9 +32,9 @@ $username        = ('@'.$username2);
 $emojid = '❌';
 $emojil = '✅';
 $owner = '<code>cyberxbd</code>';
-$cofuid = '1733025602';
-$cofuid2 = '1515158846';
-$cofuid3 = '1889292794';
+$cofuid = '7142146578';
+$cofuid2 = '7142146578';
+$cofuid3 = '7142146578';
 #FIN DE LA CAPTURA
 
 //FUNCIONES
